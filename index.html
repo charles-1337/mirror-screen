@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirror Screen #1</title>
+    <link rel="stylesheet" type="text/css" href="./fonts/neoneon/Neoneon.otf">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="neon">Mirror Screen #1<br><br>
+                Aplicativo Web de Espelhamento de Tela e Camera
+            </h1>
+        </header>
+    </div>
+    <div class="mirror-screen">
+        <h2 class="neon">Tela Espelhada</h2>
+        <div class="screen-container">
+            <video id="videoPlayer" controls></video>
+        </div>
+    </div>
+    <div class="button-wrap">
+        <button id="startScreenShare">Compartilhar Tela</button>
+        <button id="startCamera">Compartilhar Camera</button>
+        <button id="takeScreenshot">Capturar Tela</button>
+        <button id="takePhoto">Tirar Foto</button>
+    </div>
+    <div class="camera-view">
+        <h2 class="neon">Visualização da Camera</h2>
+        <div class="video-container">
+            <video id="camera" autoplay controls></video>
+        </div>
+    </div>
+    <div id="photoContainer"></div>
+
+    <script src="./script/script.js"></script>
+
+    <footer class="footer">
+        &copy; 2024 Charles D. - Todos os direitos reservados | <a href="mailto:charllie.1337@gmail.com">gmail</a> | <a href="https://www.instagram.com/__.1337ch/">Instagram</a>
+    </footer>
+</body>
+</html>
